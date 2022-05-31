@@ -24,6 +24,9 @@ jobs:
           name: "test"
           command: ls
       - run:
+          name: "git config"
+          command: git config --list
+      - run:
           name: "gcc"
           command: gcc hello.c
       - run:
