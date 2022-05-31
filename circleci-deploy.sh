@@ -9,16 +9,14 @@ ls -la
 # 定义远程仓库地址变量
 remote=$(git config remote.origin.url)
 echo 'remote address is: '$remote
-GH_EMAIL = 2336397952@qq.com
-GH_NAME = yael_du
 # 新建一个发布项目的目录
 mkdir git-pages-rp
 cd git-pages-rp
 
 # 创建的一个新的仓库
 # 设置发布的用户名与邮箱 这里的邮箱和用户名都是取自上面设置的环境变量
-git config --global user.email "$GH_EMAIL" >/dev/null 2>&1 # 这里的处理是为了不让其输出信息到控制台
-git config --global user.name "$GH_NAME" >/dev/null 2>&1 # 这里的处理是为了不让其输出信息到控制台
+git config --global user.email "2336397952@qq.com" >/dev/null 2>&1 # 这里的处理是为了不让其输出信息到控制台
+git config --global user.name "yael_du" >/dev/null 2>&1 # 这里的处理是为了不让其输出信息到控制台
 # 初始化一个临时的git仓库
 git init
 # 和远程仓库建立关联
