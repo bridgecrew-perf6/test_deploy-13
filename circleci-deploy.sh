@@ -34,8 +34,8 @@ else
 fi
 
 # 把构建好的文件目录给拷贝进来
-mkdir new.ipk
-cp -a "./new.ipk" .
+
+cp -a "../" .
 # 查看拷贝的文件
 ls -la
 
