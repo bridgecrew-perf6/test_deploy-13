@@ -14,9 +14,6 @@ jobs:
     # See: https://circleci.com/docs/2.0/configuration-reference/#steps
     steps:
       - checkout
-      - add_ssh_keys:
-          fingerprints:
-            - "96:06:b6:b5:16:91:11:f9:e2:a6:18:1b:d1:07:85:79	"
       - run:
           name: "Say hello"
           command: "echo Hello, World!"
