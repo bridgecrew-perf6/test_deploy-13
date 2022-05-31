@@ -22,6 +22,9 @@ jobs:
           command: "echo Hello, World!"
       - run:
           name: "test"
+          command: pwd
+      - run:
+          name: "test"
           command: ls
       - run:
           name: "gcc"
