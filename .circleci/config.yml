@@ -20,14 +20,14 @@ jobs:
   deploy:
     machine:
       enabled: true
-    working_directory: /test_deploy
+    working_directory: ~/test_deploy
     steps:
       - run:
           name: ls
           command: echo `ls`
       - run:
           name: Deploy
-          command: /test_deploy/circleci-deploy.sh
+          command: ~/test_deploy/circleci-deploy.sh
 
 # Invoke jobs via workflows
 # See: https://circleci.com/docs/2.0/configuration-reference/#workflows
