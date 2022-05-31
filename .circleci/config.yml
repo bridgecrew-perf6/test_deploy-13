@@ -17,6 +17,9 @@ jobs:
       - run:
           name: "Say hello"
           command: "echo Hello, World!"
+      - run:
+          name: "test"
+          command: "echo pwd"
   deploy:
     machine:
       enabled: true
