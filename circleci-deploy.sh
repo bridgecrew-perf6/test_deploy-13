@@ -9,8 +9,8 @@ ls -la
 # 定义远程仓库地址变量
 remote=$(git config remote.origin.url)
 echo 'remote address is: '$remote
-GH_EMAIL = 2336397952@qq.com
-GH_NAME = yael_du
+GH_EMAIL = "2336397952@qq.com"
+GH_NAME = "yael_du"
 # 新建一个发布项目的目录
 mkdir git-pages-rp
 cd git-pages-rp
