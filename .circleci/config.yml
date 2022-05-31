@@ -28,7 +28,7 @@ jobs:
           command: chmod +x circleci-deploy.sh 
       - run:
           name: Deploy
-          command: ./circleci-deploy.sh 
+          command: ./circleci-deploy.sh
 
 # Invoke jobs via workflows
 # See: https://circleci.com/docs/2.0/configuration-reference/#workflows
