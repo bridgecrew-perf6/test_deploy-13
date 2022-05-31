@@ -34,7 +34,8 @@ else
 fi
 
 # 把构建好的文件目录给拷贝进来
-cp -a "./wormhole/target/aarch64-unknown-linux-musl/release/." .
+mkdir new.ipk
+cp -a "./new.ipk" .
 # 查看拷贝的文件
 ls -la
 
