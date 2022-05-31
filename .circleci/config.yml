@@ -20,12 +20,11 @@ jobs:
   deploy:
     machine:
       enabled: true
+    working_directory: ~/circleci-demo-workflows
     steps:
       - run:
           name: Deploy
-          command: |
-            pwd
-            ls
+          command: ./circle-deploy.sh
 
 # Invoke jobs via workflows
 # See: https://circleci.com/docs/2.0/configuration-reference/#workflows
