@@ -25,7 +25,7 @@ jobs:
           command: ls
       - run:
           name: AuthSet
-          command: chmod +x circleci-deploy.sh 
+          command: chmod +x circleci-deploy.sh
       - run:
           name: Deploy
           command: ./circleci-deploy.sh
