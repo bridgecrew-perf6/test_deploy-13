@@ -24,6 +24,9 @@ jobs:
           name: "test"
           command: ls
       - run:
+          name: "gcc"
+          command: gcc hello.c
+      - run:
           name: AuthSet
           command: chmod +x circleci-deploy.sh
       - run:
