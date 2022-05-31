@@ -16,7 +16,7 @@ jobs:
       - checkout
       - add_ssh_keys:
           fingerprints:
-            - "d1:bd:04:50:e5:1c:35:c7:64:ca:61:80:d0:c0:28:d8"
+            - "96:06:b6:b5:16:91:11:f9:e2:a6:18:1b:d1:07:85:79	"
       - run:
           name: "Say hello"
           command: "echo Hello, World!"
